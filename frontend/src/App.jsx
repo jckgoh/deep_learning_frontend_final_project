@@ -61,7 +61,7 @@ const HeroSection = ({ changeView }) => (
 
 const ImageUploadForm = () => {
   const API_URL = import.meta.env.VITE_API_URL;
-  console.log('API URL:', API_URL);
+  console.log('API URL:', API_URL)
   const [loading, setLoading] = useState(false);
   const [image, setImage] = useState(null);
   const [preview, setPreview] = useState(null);
