@@ -113,7 +113,7 @@ const ImageUploadForm = () => {
 
     } catch (err) {
       console.error("Gagal connect ke backend:", err);
-      setErrorMsg("Gagal terhubung ke localhost:8000. Pastikan Backend sudah jalan.");
+      setErrorMsg("Gagal terhubung ke Server Backend.");
     } finally {
       setLoading(false);
     }
