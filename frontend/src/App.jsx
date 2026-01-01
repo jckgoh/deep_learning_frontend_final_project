@@ -99,7 +99,7 @@ const ImageUploadForm = () => {
     formData.append('file', image); 
 
     try {
-      const response = await fetch('${API_URL}/predict', {
+      const response = await fetch(`${API_URL}/predict`, {
         method: 'POST',
         body: formData,
       });
